@@ -1,2 +1,2 @@
 # Piano-React
-Created with CodeSandbox
+Piano realizado durante el workshop de Ada 🦄
