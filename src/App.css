@@ -1,0 +1,45 @@
+body{
+  background: #D66D75;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Lobster', cursive;
+}
+
+/*Teclas de piano juntas*/
+.contenedor{
+  display:flex;
+  margin: 30px auto;
+  justify-content: center;
+}
+
+.titulo{
+  display:flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  color: white ;
+}
+
+.nota{
+  background-color: white;
+  margin: 5px;
+  border-radius: 5px;
+  height: 400px;
+  width: 100px;
+  position: relative;
+}
+
+.negra{
+  background-color: black;
+  height: 250px;
+  width: 50px;
+  border-radius:10px;
+  position: absolute;
+  right: -30px;
+  /*Para que se paren encima de las blancas*/
+  z-index: 1;
+}
+.estaSonando {
+  background-color: gray;
+  transition: 1s;
+}
